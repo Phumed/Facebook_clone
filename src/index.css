@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sideNav_list {
+    @apply px-2 flex items-center rounded-l-lg ml-2 hover:bg-slate-200;
+  }
+  .post_container {
+    @apply bg-white mt-6 pt-3 rounded-lg drop-shadow-md;
+  }
+  .footer_icon {
+    @apply sm:text-2xl xs:text-sm sm:w-8 xs:w-4;
+  }
+  .footer_text {
+    @apply sm:text-base xs:text-xs font-bold;
+  }
+  .items {
+    @apply cursor-pointer hover:bg-red-200 rounded-l-lg;
+  }
+  .rounded-items {
+    @apply cursor-pointer hover:bg-red-200 rounded-full w-9 h-9 flex justify-center items-center;
+  }
+  .icons-items {
+    @apply cursor-pointer hover:bg-red-200;
+  }
+  /* ... */
+}
