@@ -3,13 +3,19 @@ import React from "react";
 function navBar() {
   return (
     <div>
-      <nav className="flex sm:h-14 xs:h-10 border-solid sm:flex-row xs:flex-col xs:pt-3 sm:mt-0">
+      <nav className="flex sm:h-14 xs:h-10 border-solid sm:flex-row xs:flex-col sm:pt-3 xs:pt-0 sm:mt-0">
         <header className="flex md:basis-1/4 xs:basis-full xs:justify-between sm:basis-1/2 sm:justify-start items-center border-solid">
           <img
             src="https://www.facebook.com/images/fb_icon_325x325.png"
             alt="facebook"
-            className="w-10 h-10 ml-4"
+            className="w-10 h-10 ml-4 sm:block xs:hidden"
           />
+          <img
+            src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+            alt="facebook"
+            className="w-36 sm:hidden xs:block"
+          />
+
           <div className="flex xs:mr-2 sm:mr-0">
             <div>
               <input
@@ -22,7 +28,7 @@ function navBar() {
                 </span>
               </div>
             </div>
-            <div className="cursor-pointer rounded-full w-10 h-10 flex justify-center items-center hover:bg-red-200 ">
+            <div className="cursor-pointer rounded-full w-10 h-10 flex justify-center items-center hover:bg-slate-200">
               <span class="material-symbols-rounded md:hidden text-[#65676b] text-3xl">
                 menu
               </span>

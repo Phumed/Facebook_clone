@@ -10,19 +10,19 @@
     @apply bg-white mt-6 pt-3 rounded-lg drop-shadow-md;
   }
   .footer_icon {
-    @apply sm:text-2xl xs:text-sm sm:w-8 xs:w-4;
+    @apply sm:text-2xl xs:text-base sm:w-8 xs:w-6;
   }
   .footer_text {
     @apply sm:text-base xs:text-xs font-bold;
   }
   .items {
-    @apply cursor-pointer hover:bg-red-200 rounded-l-lg;
+    @apply cursor-pointer hover:bg-slate-200 rounded-l-lg;
   }
   .rounded-items {
-    @apply cursor-pointer hover:bg-red-200 rounded-full w-9 h-9 flex justify-center items-center;
+    @apply cursor-pointer hover:bg-slate-200 rounded-full w-9 h-9 flex justify-center items-center;
   }
   .icons-items {
-    @apply cursor-pointer hover:bg-red-200;
+    @apply cursor-pointer hover:bg-slate-200;
   }
   /* ... */
 }

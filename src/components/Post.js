@@ -23,14 +23,14 @@ function Post() {
           <span class="material-symbols-rounded">close</span>
         </div>
       </header>
-      <main className="sm:text-base xs:text-xs">
-        <div className="px-4 pt-1 pb-4">
+      <main className="sm:text-base xs:text-sm">
+        <div className="px-4 pt-2 pb-2">
           เมื่อ พัคซอจุน-ฮันโซฮี ต้องร่วมภารกิจพิเศษตามหาผู้สูญหาย ก่อนพบกันใน
           Gyeongseong Creature สัตว์สยองกยองซอง ภาค 2 ที่ Netflix
         </div>
         <img src={PostPic} alt="postPic" />
       </main>
-      <div className="flex justify-between mx-4 text-[#65676b] py-2 border-solid border-2 border-b-slate-300 border-white sm:text-base xs:text-xs">
+      <div className="flex justify-between mx-4 text-[#65676b] py-2 border-solid border-b-2 border-gray-300 sm:text-base xs:text-xs">
         <div>1.8 พัน</div>
         <div className="flex">
           <div className="pr-3">113 ความคิดเห็น</div>
@@ -39,7 +39,7 @@ function Post() {
       </div>
       <footer className="flex py-2 text-[#65676B]">
         <div className="flex flex-auto justify-center items-center rounded-lg hover:bg-slate-200 ml-4 cursor-pointer">
-          <span class="material-symbols-rounded footer_icons">thumb_up</span>
+          <span class="material-symbols-rounded footer_icon">thumb_up</span>
           <div className="footer_text">ถูกใจ</div>
         </div>
         <div className="flex flex-auto justify-center items-center rounded-lg hover:bg-slate-200 cursor-pointer">

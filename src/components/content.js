@@ -6,9 +6,12 @@ function content() {
   // const components = Array.from({ length: 5 }, () => <MyComponent />);
   return (
     <div className="xs:px-2 sm:px-2 md:px-10 lg:px-0 xl:px-10 2xl:px-16 bg-slate-100">
+      <div className="sm:hidden xs:block">
+        <MyPost />
+      </div>
       <div className="pt-6 flex overflow-x-scroll">
         {/* my Story */}
-        <div className="h-64 w-36 mr-2 relative rounded-lg overflow-hidden flex-none">
+        <div className="xs:w-32 xs:h-52 sm:h-64 sm:w-36 mr-2 relative rounded-lg overflow-hidden flex-none">
           <div className="h-full w-full mr-2 shadow-md">
             {/* image */}
             <img
@@ -30,7 +33,7 @@ function content() {
 
         {/* story */}
 
-        <div className="h-64 w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
+        <div className="xs:w-32 xs:h-52 sm:h-64 sm:w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
           <div className="absolute top-0 left-0 z-0 h-full w-full">
             <img
               src="https://www.worldphoto.org/sites/default/files/default-media/Piercy.jpg"
@@ -49,7 +52,7 @@ function content() {
             Phumed Thumtechanon
           </div>
         </div>
-        <div className="h-64 w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
+        <div className="xs:w-32 xs:h-52 sm:h-64 sm:w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
           <div className="absolute top-0 left-0 z-0 h-full w-full">
             <img
               src="https://www.worldphoto.org/sites/default/files/default-media/Piercy.jpg"
@@ -68,7 +71,7 @@ function content() {
             Phumed Thumtechanon
           </div>
         </div>
-        <div className="h-64 w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
+        <div className="xs:w-32 xs:h-52 sm:h-64 sm:w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
           <div className="absolute top-0 left-0 z-0 h-full w-full">
             <img
               src="https://www.worldphoto.org/sites/default/files/default-media/Piercy.jpg"
@@ -87,7 +90,7 @@ function content() {
             Phumed Thumtechanon
           </div>
         </div>
-        <div className="h-64 w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
+        <div className="xs:w-32 xs:h-52 sm:h-64 sm:w-36 mr-2 flex-none overflow-hidden relative rounded-lg">
           <div className="absolute top-0 left-0 z-0 h-full w-full">
             <img
               src="https://www.worldphoto.org/sites/default/files/default-media/Piercy.jpg"
@@ -107,7 +110,7 @@ function content() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="sm:block xs:hidden">
         <MyPost />
       </div>
       <div>
