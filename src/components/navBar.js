@@ -3,26 +3,26 @@ import React from "react";
 function navBar() {
   return (
     <div>
-      <nav className="flex sm:h-14 xs:h-10 border-solid sm:flex-row xs:flex-col sm:pt-3 xs:pt-0 sm:mt-0">
-        <header className="flex md:basis-1/4 xs:basis-full xs:justify-between sm:basis-1/2 sm:justify-start items-center border-solid">
+      <nav className="flex sm:h-14 h-10 border-solid sm:flex-row flex-col sm:pt-3 pt-0 sm:mt-0">
+        <header className="flex md:basis-1/4 basis-full justify-between sm:basis-1/2 sm:justify-start items-center border-solid">
           <img
             src="https://www.facebook.com/images/fb_icon_325x325.png"
             alt="facebook"
-            className="w-10 h-10 ml-4 sm:block xs:hidden"
+            className="w-10 h-10 ml-4 sm:block hidden"
           />
           <img
             src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
             alt="facebook"
-            className="w-36 sm:hidden xs:block"
+            className="w-36 sm:hidden block"
           />
 
-          <div className="flex xs:mr-2 sm:mr-0">
+          <div className="flex mr-2 sm:mr-0">
             <div>
               <input
-                className="bg-slate-200 w-full h-full rounded-full px-2.5 py-2 ml-2 xs:hidden xl:block"
+                className="bg-slate-200 w-full h-full rounded-full px-2.5 py-2 ml-2 hidden xl:block"
                 placeholder="ค้นหาบน Facebook:"
               />
-              <div className="xs:block xl:hidden bg-gray-200 rounded-full w-10 h-10 ml-2">
+              <div className="block xl:hidden bg-gray-200 rounded-full w-10 h-10 ml-2">
                 <span class="material-symbols-rounded flex justify-center items-center w-full h-full">
                   search
                 </span>
@@ -35,7 +35,7 @@ function navBar() {
             </div>
           </div>
         </header>
-        <main className=" xs:flex md:flex sm:hidden md:basis-1/2 xs:justify-between sm:justify-center xs:pt-2 sm:pt-0 sm:px-16 items-center text-[#65676b]">
+        <main className=" flex md:flex sm:hidden md:basis-1/2 justify-between sm:justify-center pt-2 sm:pt-0 sm:px-16 items-center text-[#65676b]">
           <div className="flex-1 justify-center flex items-center border-b-4 h-full border-b-[#0866ff]  cursor-pointer">
             <span className="material-symbols-rounded text-3xl text-[#0866ff]">
               home
@@ -60,7 +60,7 @@ function navBar() {
             </span>
           </div>
         </main>
-        <footer className="sm:flex md:basis-1/4 xs:hidden sm:basis-1/2 justify-end pr-4 pl-1 flex items-center">
+        <footer className="sm:flex md:basis-1/4 hidden sm:basis-1/2 justify-end pr-4 pl-1 flex items-center">
           <div className="bg-gray-300 rounded-full w-10 h-10 mr-2 icons-items">
             <span className="material-symbols-rounded w-full h-full flex justify-center items-center text-[#65676b]">
               apps

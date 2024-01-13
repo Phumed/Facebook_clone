@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
-import NavBar from "./components/navBar";
-import SideNav from "./components/sideNav";
 import Content from "./components/content";
+import NavBar from "./components/navBar";
 import Recommend from "./components/recommend";
+import SideNav from "./components/sideNav";
 
 function App() {
   return (
@@ -12,13 +11,13 @@ function App() {
         <NavBar />
       </div>
       <div className="flex h-screen overflow-hidden pt-14">
-        <div className="xl:basis-1/4 overflow-y-scroll xs:hidden xl:block">
+        <div className="xl:basis-1/4 overflow-y-scroll hidden xl:block">
           <SideNav />
         </div>
-        <div className="xl:basis-1/2 overflow-auto lg:basis-2/3 xs:basis-full">
+        <div className="xl:basis-1/2 overflow-auto lg:basis-2/3 basis-full">
           <Content />
         </div>
-        <div className="xl:basis-1/4 overflow-y-scroll md:basis-1/3 xs:hidden lg:block">
+        <div className="xl:basis-1/4 overflow-y-scroll md:basis-1/3 hidden lg:block">
           <Recommend />
         </div>
       </div>

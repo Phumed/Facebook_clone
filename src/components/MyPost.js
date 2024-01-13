@@ -2,7 +2,7 @@ import React from "react";
 
 function MyPost() {
   return (
-    <div className="flex sm:flex-col post_container px-4 sm:py-0 xs:py-2">
+    <div className="flex sm:flex-col post_container px-4 sm:py-0 py-2">
       <header className="flex items-center h-full w-full border-2 border-white">
         <div className="flex-none">
           <img
@@ -18,20 +18,20 @@ function MyPost() {
           />
         </div>
       </header>
-      <footer className="flex py-2 text-[#65676B] sm:h-full xs:h-12">
-        <div className="xs:hidden sm:flex flex-auto justify-center items-center hover:bg-slate-200 rounded-lg py-1 cursor-pointer">
+      <footer className="flex py-2 text-[#65676B] sm:h-full h-12">
+        <div className="hidden sm:flex flex-auto justify-center items-center hover:bg-slate-200 rounded-lg py-1 cursor-pointer">
           <div class="material-symbols-rounded footer_icon text-red-600">
             videocam
           </div>
           <div className="footer_text">วิดีโอถ่ายทอดสด</div>
         </div>
-        <div className="flex-auto flex xs:flex-col sm:flex-row justify-center items-center hover:bg-slate-200 rounded-lg py-1 cursor-pointer">
-          <span className="material-symbols-rounded footer_icon text-green-500 xs:text-3xl sm:text-2xl">
+        <div className="flex-auto flex flex-col sm:flex-row justify-center items-center hover:bg-slate-200 rounded-lg py-1 cursor-pointer">
+          <span className="material-symbols-rounded footer_icon text-green-500 text-3xl sm:text-2xl">
             photo_library
           </span>
-          <div className="footer_text xs:hidden sm:block">รูปภาพ/วิดีโอ</div>
+          <div className="footer_text hidden sm:block">รูปภาพ/วิดีโอ</div>
         </div>
-        <div className="xs:hidden sm:flex flex-auto justify-center items-center hover:bg-slate-200 rounded-lg py-1 cursor-pointer">
+        <div className="hidden sm:flex flex-auto justify-center items-center hover:bg-slate-200 rounded-lg py-1 cursor-pointer">
           <span className="material-symbols-rounded footer_icon text-amber-400">
             mood
           </span>

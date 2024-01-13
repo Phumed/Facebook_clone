@@ -15,7 +15,7 @@ function Post() {
           </div>
           <div className="flex flex-col">
             <div className="test-sm font-medium">Netflix</div>
-            <div className="text-xs  text-[#65676B]">3 ชม.</div>
+            <div className="text-xs text-[#65676B]">3 ชม.</div>
           </div>
         </div>
         <div>
@@ -23,14 +23,14 @@ function Post() {
           <span class="material-symbols-rounded">close</span>
         </div>
       </header>
-      <main className="sm:text-base xs:text-sm">
+      <main className="sm:text-base text-sm">
         <div className="px-4 pt-2 pb-2">
           เมื่อ พัคซอจุน-ฮันโซฮี ต้องร่วมภารกิจพิเศษตามหาผู้สูญหาย ก่อนพบกันใน
           Gyeongseong Creature สัตว์สยองกยองซอง ภาค 2 ที่ Netflix
         </div>
         <img src={PostPic} alt="postPic" />
       </main>
-      <div className="flex justify-between mx-4 text-[#65676b] py-2 border-solid border-b-2 border-gray-300 sm:text-base xs:text-xs">
+      <div className="flex justify-between mx-4 text-[#65676b] py-2 border-solid border-b-2 border-gray-300 sm:text-base text-xs">
         <div>1.8 พัน</div>
         <div className="flex">
           <div className="pr-3">113 ความคิดเห็น</div>
